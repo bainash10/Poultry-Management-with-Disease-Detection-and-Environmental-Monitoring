@@ -335,7 +335,7 @@ if ($result) {
                     echo $row['bank'];
                     ?></p>
                     <p><?php echo "Account No. ".$number; ?></p>
-                    <p>Balance: K <?php echo $balance = $dep-$wit; ?></p>
+                    <p>Balance: NRS. <?php echo $balance = $dep-$wit; ?></p>
                   <?php } ?>
                 </div>
               </div>
@@ -368,7 +368,7 @@ if ($result) {
                             <td><?php echo $row['date']; ?></td>
                             <td><?php echo $row['no']; ?></td>
                             <td><?php echo $row['type']; ?></td>
-                            <td>K <?php echo $row['amount']; ?></td>
+                            <td>NRS. <?php echo $row['amount']; ?></td>
                             <td><?php echo $row['comments']; ?></td>
                             <td>
                               <a href="database/delete.php?delete_bank_bal=<?php echo $row['id']; ?>" class="btn btn-danger">Delete</a>

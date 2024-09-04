@@ -340,7 +340,7 @@ if ($result) {
                       $debit3 += $row['amount'];
                     }?>
                     <?php $t_debit = $debit1+$debit2+$debit3; ?>
-                    <p class="text-bold">Balance: K <?php echo $balance = $t_credit-$t_debit; ?></p>
+                    <p class="text-bold">Balance: NRS. <?php echo $balance = $t_credit-$t_debit; ?></p>
 
 
                   <?php }?>

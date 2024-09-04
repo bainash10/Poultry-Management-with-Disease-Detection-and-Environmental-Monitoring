@@ -395,7 +395,7 @@ if ($result) {
             </div>
             <div class="col-xl-6 col-lg-7">
               <div class="card">
-                <div class="card-header">Consumption History History</div>
+                <div class="card-header">Consumption History </div>
                 <div class="card-body">
                   <div class="responsive-table">
                     <table id="clients" class="table table-bordered">
