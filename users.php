@@ -144,7 +144,7 @@ if (isset($_POST['update-user'])) {
       </li> -->
       <hr class="sidebar-divider my-0">
       <li class="nav-item">
-        <a href="users.php" class="nav-link">Add Users</a>
+        <a href="users.php" class="nav-link">Users</a>
       </li>
       <hr class="sidebar-divider my-0">
       <li class="nav-item active">

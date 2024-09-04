@@ -15,10 +15,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="icon" href="assets\img\logo.png" type="image/png">
 </head>
-<body class="bg-image">
+<body style="background-image: url('assets/img/pofarms.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
 		<div class="container">
-			<a class="navbar-brand" href="index.php"><span class="navbar-logo"><img src="assets/img/pofarms_black.png"></span> Agro Vision</a>
+			<a class="navbar-brand" href="index.php"><span class="navbar-logo"><img src="assets/img/logo.png"></span> Agro Vision</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -34,11 +34,11 @@
 						<a class="nav-link" href="http://dbms.pofarms.icu/" target="blank">COVID-19 Response Monitor <span class="divider"></span></a>
 					</li> -->
 					<li class="nav-item">
-						<a class="nav-link" href="about.php">About <span class="divider"></span></a>
+						<a class="nav-link" href="about.php">About </a>
 					</li>
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="nav-link" href="signup.php">Sign up</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>
@@ -110,7 +110,7 @@
 					<div class="col-xl-4">
 						<h4>Team Members</h4>
 						<ul>
-							<li><a href="" target="blank">KhEC</a></li>
+							<!-- <li><a href="" target="blank">KhEC</a></li> -->
 							<li><a href="" target="blank">Mukesh Prajapati</a></li>
 							<li><a href="" target="blank">Nischal Baidar</a></li>
 							<li><a href="" target="blank">Sumina Awa</a></li>
@@ -120,7 +120,7 @@
 					<div class="col-xl-4">
 						<div class="logo-footer">
 							<center>
-								<img src="assets/img/pofarms_white.png"><br>
+								<img src="assets/img/logo.png"><br>
 								Agro Vision (AV)<br>
 								<p>
 								AI-powered web app optimizing poultry farm management and disease classification.
