@@ -149,7 +149,7 @@ if ($result) {
     <?php if ($user_type == 'Admin'): ?>
         <hr class="sidebar-divider my-0">
         <li class="nav-item">
-            <a href="users.php" class="nav-link">Add Users</a>
+            <a href="users.php" class="nav-link">Users</a>
         </li>
     <?php endif; ?>
     <hr class="sidebar-divider my-0">
